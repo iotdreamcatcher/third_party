@@ -1,4 +1,4 @@
-module third_party
+module github.com/iotdreamcatcher/third_party
 
 go 1.19
 
