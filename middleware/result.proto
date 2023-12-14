@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package result;
+option go_package = "/;proto";
+// import "google/protobuf/any.proto";
+
+message Resp {
+  int32 code = 1;
+  string msg = 2;
+  string requestID = 3;
+  string path = 4;
+}
