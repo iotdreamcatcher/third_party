@@ -14,10 +14,10 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/casbin/casbin/v2"
+	"github.com/iotdreamcatcher/third_party/cache_key"
+	"github.com/iotdreamcatcher/third_party/commKey"
+	utils "github.com/iotdreamcatcher/third_party/cryptography"
 	"github.com/zeromicro/go-zero/core/stores/redis"
-	"gtihub.com/iotdreamcatcher/third_party/cache_key"
-	"gtihub.com/iotdreamcatcher/third_party/commKey"
-	utils "gtihub.com/iotdreamcatcher/third_party/cryptography"
 	"net/http"
 )
 

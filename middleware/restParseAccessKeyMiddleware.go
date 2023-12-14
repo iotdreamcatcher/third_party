@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"context"
-	"gtihub.com/iotdreamcatcher/third_party/commKey"
+	"github.com/iotdreamcatcher/third_party/commKey"
 	"net/http"
 )
 

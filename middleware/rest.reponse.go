@@ -2,8 +2,8 @@ package middleware
 
 import (
 	"encoding/json"
-	"gtihub.com/iotdreamcatcher/third_party/response"
-	"gtihub.com/iotdreamcatcher/third_party/sony"
+	"github.com/iotdreamcatcher/third_party/response"
+	"github.com/iotdreamcatcher/third_party/sony"
 	"net/http"
 )
 

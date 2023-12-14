@@ -3,12 +3,12 @@ package middleware
 import (
 	"context"
 	"fmt"
+	"github.com/iotdreamcatcher/third_party/cache_key"
+	"github.com/iotdreamcatcher/third_party/commKey"
+	"github.com/iotdreamcatcher/third_party/jwts"
+	"github.com/iotdreamcatcher/third_party/response"
 	"github.com/zeromicro/go-zero/core/logx"
 	"github.com/zeromicro/go-zero/core/stores/redis"
-	"gtihub.com/iotdreamcatcher/third_party/cache_key"
-	"gtihub.com/iotdreamcatcher/third_party/commKey"
-	"gtihub.com/iotdreamcatcher/third_party/jwts"
-	"gtihub.com/iotdreamcatcher/third_party/response"
 	"net/http"
 )
 
