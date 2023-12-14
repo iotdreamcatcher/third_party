@@ -2,9 +2,9 @@ package middleware
 
 import (
 	"encoding/json"
+	"gtihub.com/iotdreamcatcher/third_party/response"
+	"gtihub.com/iotdreamcatcher/third_party/sony"
 	"net/http"
-	"third_party/response"
-	"third_party/sony"
 )
 
 func CommonErrResponse(w http.ResponseWriter, r *http.Request, Code int32, v ...any) {

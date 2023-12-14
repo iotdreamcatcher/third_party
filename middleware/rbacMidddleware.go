@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"github.com/zeromicro/go-zero/core/logc"
 	"google.golang.org/grpc"
+	"gtihub.com/iotdreamcatcher/third_party/response"
 	"strings"
-	"third_party/response"
 )
 
 // note: 基于grpc的中间件，实现rbac鉴权认证

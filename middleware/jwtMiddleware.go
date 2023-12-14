@@ -6,11 +6,11 @@ import (
 	"github.com/zeromicro/go-zero/core/logc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
+	"gtihub.com/iotdreamcatcher/third_party/cache_key"
+	utils "gtihub.com/iotdreamcatcher/third_party/cryptography"
+	"gtihub.com/iotdreamcatcher/third_party/response"
+	"gtihub.com/iotdreamcatcher/third_party/sony"
 	"strings"
-	"third_party/cache_key"
-	utils "third_party/cryptography"
-	"third_party/response"
-	"third_party/sony"
 )
 
 // note: 基于grpc的中间件，实现jwt校验

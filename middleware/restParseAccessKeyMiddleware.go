@@ -2,8 +2,8 @@ package middleware
 
 import (
 	"context"
+	"gtihub.com/iotdreamcatcher/third_party/commKey"
 	"net/http"
-	"third_party/commKey"
 )
 
 type ParseAccessKeyMiddleware struct {
